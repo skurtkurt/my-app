@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 
-
+import '@aws-amplify/ui/dist/style.css';
 Amplify.configure(awsconfig);
 
 ReactDOM.render(

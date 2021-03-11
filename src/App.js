@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
-import { withAuthenticator,  } from 'aws-amplify-react';
-import { button } from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react';
+
 
 import { DataStore } from '@aws-amplify/datastore';
 import { Post } from './models';
