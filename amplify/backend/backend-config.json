@@ -16,8 +16,8 @@
           "defaultAuthentication": {
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 30,
-              "description": "api key description"
+              "apiKeyExpirationDays": 365,
+              "description": "apikey1"
             }
           },
           "additionalAuthenticationProviders": [
@@ -27,6 +27,19 @@
           ]
         }
       }
+    }
+  },
+  "analytics": {
+    "myapp": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "interactions": {
+    "lex2546d8b0": {
+      "service": "Lex",
+      "providerPlugin": "awscloudformation",
+      "build": true
     }
   }
 }

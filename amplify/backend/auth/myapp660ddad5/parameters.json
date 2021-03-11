@@ -1,6 +1,6 @@
 {
     "identityPoolName": "myapp660ddad5_identitypool_660ddad5",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "myapp660ddad5",
     "userPoolName": "myapp660ddad5_userpool_660ddad5",
     "autoVerifiedAttributes": [
